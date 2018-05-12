@@ -5,7 +5,7 @@ require_relative '../config/environment'
 puts "Welcome to Tic Tac Toe!"
 
 #newgame = Game.new
-newgame = Game.new(Players:Human.new("X"),Players:Computer.new("O"))
+newgame = Game.new(Players::Human.new("X"),Players::Computer.new("O"))
 
 newgame.board.display
 
