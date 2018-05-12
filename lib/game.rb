@@ -80,6 +80,7 @@ class Game
       turn
     end
     @board.update(move,current_player)
+    @board.display
   end
 
   def play
